@@ -133,7 +133,7 @@
     }
     /*? section experiencia  */
     .section-experience{
-        width: 500px;
+        width: 400px;
     }
     .section-experience h2 {
         font-size: 40px;
@@ -152,7 +152,8 @@
         margin: 0;
     }
     .box-Projects img{
-        width: 90vw;
+        width: 80vw;
+        margin: 0 auto;
     }
     .img-project{
         flex-direction: column;
