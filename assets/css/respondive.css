@@ -81,45 +81,60 @@
         padding: 0 40px;
     }
             /*? responsive figure circle1 */
-    .circle1{
+    .outer-circle {
+        width: 160px;
+        height: 160px;
+        right: 0;
+        top: 0;
+        z-index: -1;
+    }
+    .inner-circle1 {
         width: 120px;
         height: 120px;
+        border-radius: 50%;
+        border: 1px solid var(--gray);
+        position: absolute;
+        top: 0px;
+        left: 60%;
     }
-    .circle2{
+    .inner-circle2 {
         width: 100px;
         height: 100px;
+        border-radius: 50%;
+        border: 1px solid var(--gray);
+        position: absolute;
+        top: 10px;
+        left: 10px;
     }
-    .circle3{
+    .inner-circle3 {
         width: 80px;
         height: 80px;
+        border-radius: 50%;
+        border: 1px solid var(--gray);
+        position: absolute;
+        top: 20px;
+        left: 20px;
     }
-    .box-circle{
-        left: 47%;
-        top: 0;
+    .section__circle--one {
+        position: relative;
     }
         /*? section skills  */
-    .box-skill{
-        height: 800px;
-        margin: 0;
-    }
-    .box-skill .icons-skills{
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        gap: 10px;
+   .box-skill .icons-skills {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
     }
     .box-skill h2{
+        margin-top: 50px;
         font-size: 40px;
     }
     .icons-and-p {
-        width: 250px;
+        width: 150px;
     }
-/*? section experiencia  */
+    /*? section experiencia  */
     .section-experience{
         width: 500px;
-        }
+    }
     .section-experience h2 {
         font-size: 40px;
     }
@@ -144,22 +159,23 @@
         gap: 50px;
         overflow: none;
     }
-        /*? responsive figure circle2 */
-    .circle-1{
+    /*? responsive figure circle2 */
+    .outer-circlet {
+        top: -100px;
+    }
+    .inner-circlet1 {
         width: 120px;
         height: 120px;
+        right: 50%;
     }
-    .circle-2{
+    .inner-circlet2 {
         width: 100px;
         height: 100px;
+        border-radius: 50%;
     }
-    .circle-3{
+    .inner-circlet3 {
         width: 80px;
         height: 80px;
-    }
-    .box-circle2{
-        right: 46%;
-        top: 0;
     }
     /*? footer responsive */
     .footer-container h2 {
