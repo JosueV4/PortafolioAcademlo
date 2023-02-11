@@ -50,6 +50,9 @@
     #check:checked ~ ul{
         left: 0;
     }
+    .nav__menu__visible {
+        left: 0;
+    }
     /*? Header Responsive */
     header img{
         width: 50%;
